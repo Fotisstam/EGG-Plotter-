@@ -23,12 +23,28 @@ An open-source, high-density real-time Python desktop application for acquiring,
 
 ---
 
-## Quick Start
+## Serial Connection Manager
 
-### 1. Installation
-Clone the repository and install the required dependencies:
+The built-in connection manager provides a dedicated control panel for initializing and configuring high-speed serial communication with the host STM32 hardware:
 
-```bash
-git clone [https://github.com/your-username/32ch-eeg-signal-analyzer.git](https://github.com/your-username/32ch-eeg-signal-analyzer.git)
-cd 32ch-eeg-signal-analyzer
-pip install -r requirements.txt
+* **Automatic Port Detection:** Scans available system COM / TTY ports on startup.
+* **Baud Rate Configuration:** Configurable baud rate selection tailored for high-frequency multi-channel data streaming.
+* **Real-Time Link Diagnostics:** Dynamic connection status indicators and hardware handshake logs.
+
+<p align="center">
+  <img width="600" alt="Serial Connection Manager Interface" src="PASTE_YOUR_CONNECTION_MANAGER_IMAGE_LINK_HERE" />
+</p>
+
+---
+
+## Repository Structure
+
+```text
+├── assets/               # GUI assets, icons, and interface previews
+├── src/                  # Core application source code
+│   ├── dsp/              # FFT calculation, band filtering, and peak tracking
+│   ├── gui/              # PyQt layout, electrode matrix control, and plot widgets
+│   └── serial/           # STM32 connection manager and packet parsing
+├── main.py               # Application entry point
+├── requirements.txt      # Python dependencies (PyQt5, PyQtGraph, PySerial, SciPy, NumPy)
+└── README.md             # Project documentation
