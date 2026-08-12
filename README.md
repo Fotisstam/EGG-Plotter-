@@ -46,7 +46,8 @@ The analyzer includes integrated recording and capture capabilities designed for
 * **Instant Frame Snapshots:** Single-click high-resolution spectral and waveform snapshots (`Snapshot`) for quick documentation and reporting.
 
 <p align="center">
-  <img width="600" alt="Session Recording Interface" src="PASTE_YOUR_RECORDING_IMAGE_LINK_HERE" />
+  <img width="600" alt="Session Recording Interface" src="<img width="932" height="803" alt="image" src="https://github.com/user-attachments/assets/4241562c-c0a1-4d9d-8a21-eef90adebca0" />
+" />
 </p>
 
 ---
