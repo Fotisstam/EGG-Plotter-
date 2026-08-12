@@ -51,3 +51,28 @@ The analyzer includes integrated recording and capture capabilities designed for
 
 ---
 
+## Installation & Running
+
+### Prerequisites
+Ensure you have **Python 3.8+** installed on your system.
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+cd your-repo-name
+2. Install Dependencies
+Install all required packages using pip:
+
+Bash
+pip install PyQt5 pyqtgraph numpy pyserial
+3. Run the Application
+Execute the Python script:
+
+Bash
+python "Source Code/eeg_app.py"
+Repository Structure
+Plaintext
+├── Source Code/
+│   └── eeg_app.py        # Single-file application entry point
+├── assets/               # GUI screenshots and UI previews
+└── README.md             # Project documentation
