@@ -53,13 +53,11 @@ The analyzer includes integrated recording and capture capabilities designed for
 
 ## Installation & Running
 
-### Prerequisites
-Ensure you have **Python 3.8+** installed on your system.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone [https://github.com/Fotisstam/EGG Plotter App.git](https://github.com/Fotisstam/EGG Plotter App.git)
+cd EGG Plotter App
 2. Install Dependencies
 Install all required packages using pip:
 
