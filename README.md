@@ -1,4 +1,4 @@
-# 32-Channel EEG Signal Analyzer
+# EGG-Plotter-App
 
 An open-source, high-density real-time Python desktop application for acquiring, processing, and analyzing 32-channel EEG (Electroencephalogram) signal data streamed over a serial (UART) connection from an STM32 board.
 
@@ -51,18 +51,38 @@ The analyzer includes integrated recording and capture capabilities designed for
 
 ---
 
-
-
 ## Installation & Running
+
+### Prerequisites
+Ensure you have **Python 3.8+** installed on your system.
 
 ### 1. Clone the Repository
 ```bash
 git clone [https://github.com/Fotisstam/EGG-Plotter-App.git](https://github.com/Fotisstam/EGG-Plotter-App.git)
 cd EGG-Plotter-App
-2. Install Dependencies
-Bash
-pip install PyQt5 pyqtgraph numpy pyserial
-3. Run the Application
-Bash
-python "Source Code/eeg_app.py"
+```
 
+### 2. Install Dependencies
+Install all required packages using `pip`:
+
+```bash
+pip install PyQt5 pyqtgraph numpy pyserial
+```
+
+### 3. Run the Application
+Execute the Python script:
+
+```bash
+python "Source Code/eeg_app.py"
+```
+
+---
+
+## Repository Structure
+
+```text
+├── Source Code/
+│   └── eeg_app.py        # Single-file application entry point
+├── assets/               # GUI screenshots and UI previews
+└── README.md             # Project documentation
+```
