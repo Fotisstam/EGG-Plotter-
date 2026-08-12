@@ -37,3 +37,17 @@ The built-in connection manager provides a dedicated control panel for initializ
 
 ---
 
+## Session Recording & Data Export
+
+The analyzer includes integrated recording and capture capabilities designed for offline post-processing and analysis:
+
+* **Real-Time File Streaming:** Stream multi-channel raw or filtered EEG data directly to disk during live acquisition sessions.
+* **Open Data Formats:** Export recorded sessions into structured CSV or binary files compatible with third-party tools (MNE-Python, EEGLAB, MATLAB).
+* **Instant Frame Snapshots:** Single-click high-resolution spectral and waveform snapshots (`Snapshot`) for quick documentation and reporting.
+
+<p align="center">
+  <img width="600" alt="Session Recording Interface" src="PASTE_YOUR_RECORDING_IMAGE_LINK_HERE" />
+</p>
+
+---
+
