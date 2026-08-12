@@ -15,16 +15,20 @@ An open-source, high-density real-time Python desktop application for acquiring,
 
 ---
 
-## System Data Flow
+## Application Interface
 
-```text
- ┌────────────────┐    Serial (UART)     ┌──────────────────────┐
- │  STM32 Board   │ ───────────────────> │ Hardware Connection  │
- │ (32-Ch ADC Data)                      │ Manager & Serial Link│
- └────────────────┘                      └──────────┬───────────┘
-                                                    │
-                                                    ▼
- ┌────────────────┐    32-Ch Spectrum    ┌──────────────────────┐
- │ Interactive    │ <─────────────────── │ DSP & Signal Engine  │
- │ Plot GUI Grid  │   & Peak Tracking    │ (FFT, Bands, Filter) │
- └────────────────┘                      └──────────────────────┘
+<p align="center">
+  <img width="100%" alt="32-Channel EEG Signal Analyzer Interface" src="PASTE_YOUR_IMAGE_LINK_HERE" />
+</p>
+
+---
+
+## Quick Start
+
+### 1. Installation
+Clone the repository and install the required dependencies:
+
+```bash
+git clone [https://github.com/your-username/32ch-eeg-signal-analyzer.git](https://github.com/your-username/32ch-eeg-signal-analyzer.git)
+cd 32ch-eeg-signal-analyzer
+pip install -r requirements.txt
