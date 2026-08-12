@@ -58,7 +58,7 @@ Ensure you have **Python 3.8+** installed on your system.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/Fotisstam/EGG-Plotter-App.git](https://github.com/Fotisstam/EGG-Plotter-App.git)
+git clone https://github.com/Fotisstam/EGG-Plotter-App.git
 
 ```
 
