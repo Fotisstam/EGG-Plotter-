@@ -54,10 +54,11 @@ The analyzer includes integrated recording and capture capabilities designed for
 ## Installation & Running
 
 
+
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/Fotisstam/EGG Plotter App.git](https://github.com/Fotisstam/EGG Plotter App.git)
-cd EGG Plotter App
+git clone [https://github.com/Fotisstam/EGG-Plotter-App.git](https://github.com/Fotisstam/EGG-Plotter-App.git)
+cd EGG-Plotter-App
 2. Install Dependencies
 Install all required packages using pip:
 
