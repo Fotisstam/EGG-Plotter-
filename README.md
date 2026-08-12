@@ -18,9 +18,17 @@ An open-source, high-density real-time Python desktop application for acquiring,
 ## Application Interface
 
 <p align="center">
-  <img width="100%" alt="32-Channel EEG Signal Analyzer Interface" src="<img width="3440" height="1392" alt="image" src="https://github.com/user-attachments/assets/ff66bf79-1eae-45ab-b116-4c3c7e43797d"
-" />
+  <img width="100%" alt="32-Channel EEG Signal Analyzer Interface" src="https://github.com/user-attachments/assets/ff66bf79-1eae-45ab-b116-4c3c7e43797d" />
 </p>
 
 ---
 
+## Quick Start
+
+### 1. Installation
+Clone the repository and install the required dependencies:
+
+```bash
+git clone [https://github.com/your-username/32ch-eeg-signal-analyzer.git](https://github.com/your-username/32ch-eeg-signal-analyzer.git)
+cd 32ch-eeg-signal-analyzer
+pip install -r requirements.txt
