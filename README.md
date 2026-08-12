@@ -32,10 +32,8 @@ The built-in connection manager provides a dedicated control panel for initializ
 * **Real-Time Link Diagnostics:** Dynamic connection status indicators and hardware handshake logs.
 
 <p align="center">
-  <img width="600" alt="Serial Connection Manager Interface" src="<img width="857" height="646" alt="image" src="https://github.com/user-attachments/assets/48968a69-6586-4664-bf77-87842b26744a" />
-
+  <img width="600" alt="Serial Connection Manager Interface" src="https://github.com/user-attachments/assets/48968a69-6586-4664-bf77-87842b26744a" />
 </p>
 
 ---
-
 
