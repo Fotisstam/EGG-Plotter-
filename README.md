@@ -59,7 +59,7 @@ Ensure you have **Python 3.8+** installed on your system.
 ### 1. Clone the Repository
 ```bash
 git clone [https://github.com/Fotisstam/EGG-Plotter-App.git](https://github.com/Fotisstam/EGG-Plotter-App.git)
-cd EGG-Plotter-App
+
 ```
 
 ### 2. Install Dependencies
@@ -73,6 +73,7 @@ pip install PyQt5 pyqtgraph numpy pyserial
 Execute the Python script:
 
 ```bash
+cd EGG-Plotter-App
 python "Source Code/eeg_app.py"
 ```
 
