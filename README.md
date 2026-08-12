@@ -32,19 +32,10 @@ The built-in connection manager provides a dedicated control panel for initializ
 * **Real-Time Link Diagnostics:** Dynamic connection status indicators and hardware handshake logs.
 
 <p align="center">
-  <img width="600" alt="Serial Connection Manager Interface" src="PASTE_YOUR_CONNECTION_MANAGER_IMAGE_LINK_HERE" />
+  <img width="600" alt="Serial Connection Manager Interface" src="<img width="857" height="646" alt="image" src="https://github.com/user-attachments/assets/48968a69-6586-4664-bf77-87842b26744a" />
+
 </p>
 
 ---
 
-## Repository Structure
 
-```text
-├── assets/               # GUI assets, icons, and interface previews
-├── src/                  # Core application source code
-│   ├── dsp/              # FFT calculation, band filtering, and peak tracking
-│   ├── gui/              # PyQt layout, electrode matrix control, and plot widgets
-│   └── serial/           # STM32 connection manager and packet parsing
-├── main.py               # Application entry point
-├── requirements.txt      # Python dependencies (PyQt5, PyQtGraph, PySerial, SciPy, NumPy)
-└── README.md             # Project documentation
