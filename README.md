@@ -51,17 +51,18 @@ The analyzer includes integrated recording and capture capabilities designed for
 
 ---
 
+
+
 ## Installation & Running
-
-
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Fotisstam/EGG-Plotter-App.git
-### 2. Install Dependencies
-pip install PyQt5 pyqtgraph numpy pyserial
-### 3. Run the Application
+git clone [https://github.com/Fotisstam/EGG-Plotter-App.git](https://github.com/Fotisstam/EGG-Plotter-App.git)
 cd EGG-Plotter-App
+2. Install Dependencies
+Bash
+pip install PyQt5 pyqtgraph numpy pyserial
+3. Run the Application
+Bash
 python "Source Code/eeg_app.py"
-
 
