@@ -74,7 +74,7 @@ Execute the Python script:
 
 ```bash
 cd EGG-Plotter-App
-python "Source Code/eeg_app.py"
+python "Source Code/Python App/eeg_app.py"
 ```
 
 ---
@@ -83,7 +83,9 @@ python "Source Code/eeg_app.py"
 
 ```text
 ├── Source Code/
-│   └── eeg_app.py        # Single-file application entry point
-├── assets/               # GUI screenshots and UI previews
+│   ├── Firmware/
+│   │   └── stm32_Vscode/ # STM32 firmware project
+│   └── Python App/
+│       └── eeg_app.py    # Single-file application entry point
 └── README.md             # Project documentation
 ```
